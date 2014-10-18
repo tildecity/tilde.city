@@ -19,7 +19,7 @@ Here's the basic steps to get going.
 * `apt-get update && apt-get dist-upgrade` (this will take a while)
 * `apt-get autoremove`
 * reboot
-* `apt-get install joe sudo nginx alpine emacs mosh golang`
+* `apt-get install joe sudo nginx alpine emacs mosh golang rsnapshot git`
 * edit `/etc/joe/joerc` and enable -nobackups (personal preference)
 * set up firewall
 * set up `/etc/skel`
