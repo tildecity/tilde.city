@@ -12,6 +12,7 @@ Here's the basic steps to get going.
 * test root ssh key
 * turn off password authentication
 * `userdel user` (backdoor user for support?)
+ * `rm -rf /home/user`
 * edit `/etc/hostname`
 * replace `/etc/motd`
 * replace `/etc/apt/sources.list`
@@ -22,6 +23,7 @@ Here's the basic steps to get going.
 * edit `/etc/joe/joerc` and enable -nobackups (personal preference)
 * set up firewall
 * set up `/etc/skel`
+* `useradd -D -s /bin/bash`
 * set up your admin user's account
 * set up sudo for your admin user
 * stop using root directly! :)
