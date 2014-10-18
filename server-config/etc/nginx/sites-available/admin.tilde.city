@@ -1,0 +1,21 @@
+server {
+	listen    80 default_server;
+	resolver 8.8.8.8;
+
+	root /home/twilde/tilde.city/www;
+	index index.html index.htm;
+
+	server_name tilde.city admin.tilde.city;
+
+	location / {
+		# First attempt to serve request as file, then
+		# as directory, then fall back to displaying a 404.
+		try_files $uri $uri/ /index.html;
+		# Uncomment to enable naxsi on this location
+		# include /etc/nginx/naxsi.rules
+	}
+
+	location ~ ^/(~.+)$ {
+		proxy_pass http://001.tilde.city/$1;
+	}
+}
