@@ -1,0 +1,9 @@
+deb http://ftp.us.debian.org/debian/ testing main
+deb-src http://ftp.us.debian.org/debian/ testing main
+
+deb http://security.debian.org/ testing/updates main
+deb-src http://security.debian.org/ testing/updates main
+
+# wheezy-updates, previously known as 'volatile'
+deb http://ftp.us.debian.org/debian/ testing-updates main
+deb-src http://ftp.us.debian.org/debian/ testing-updates main
