@@ -1,0 +1,10 @@
+body {
+	max-width: 800px;
+	margin: auto;
+	padding-top: 10px;
+}
+
+dt {
+	padding-top: 10px;
+	font-weight: bold;
+}
