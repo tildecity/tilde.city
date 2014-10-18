@@ -1,5 +1,8 @@
 Server Setup HOWTO
 ==================
+This here is the transparency part of tilde.city!  If you have any questions,
+things aren't clear, etc, just ask, via e-mail or in a GitHub issue.
+
 Just to be different we're using VPSes from cloudatcost.com - one awesome
 feature is that they provide servers for a single one-time payment!  But
 there are some restrictions, and they're not the highest-powered boxes, but
@@ -22,9 +25,14 @@ Here's the basic steps to get going.
 * `apt-get install joe sudo nginx alpine emacs mosh golang rsnapshot git ufw`
 * edit `/etc/joe/joerc` and enable -nobackups (personal preference)
 * set up firewall
-* set up `/etc/skel`
-* `useradd -D -s /bin/bash`
+* set up `/etc/skel` (see provided files)
+* `useradd -D -s /bin/bash` (sets bash as default shell)
 * set up your admin user's account
 * set up sudo for your admin user
 * stop using root directly! :)
 * set up nginx
+
+Admin Server
+------------
+* install ircd-hybrid
+* configure exim to accept mail for tilde.city from the Internet
