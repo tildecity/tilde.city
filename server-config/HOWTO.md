@@ -11,12 +11,18 @@ Here's the basic steps to get going.
 * drop in root ssh key
 * test root ssh key
 * turn off password authentication
+* `userdel user` (backdoor user for support?)
 * edit `/etc/hostname`
 * replace `/etc/motd`
 * replace `/etc/apt/sources.list`
 * `apt-get update && apt-get dist-upgrade` (this will take a while)
 * `apt-get autoremove`
+* reboot
 * `apt-get install joe sudo nginx alpine emacs`
 * edit `/etc/joe/joerc` and enable -nobackups (personal preference)
 * set up firewall
 * set up `/etc/skel`
+* set up your admin user's account
+* set up sudo for your admin user
+* stop using root directly! :)
+* set up nginx
