@@ -27,6 +27,8 @@ Here's the basic steps to get going.
  * `dpkg-reconfigure tzdata`
  * Select "None of the above" then "UTC"
 * Install software
+ * `apt-get install unattended-upgrades`
+ * `echo 'APT::Periodic::Unattended-Upgrade "1";' > /etc/apt/apt.conf.d/02periodic`
  * `apt-get install csh zsh`
  * `apt-get install emacs joe`
  * `apt-get install mosh nginx rsnapshot sudo tmux ufw znc`
