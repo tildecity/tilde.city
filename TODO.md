@@ -15,15 +15,16 @@ Bitcoin blockchain!
 * Consider heavily rate-limited Internet mail sending?
  * Major spam concerns.
 * Multi-server finger?
-* Recently changed pages
-* User list
-* Better web site layout (but needs to be 90s-ish?)
 * rsnapshot backups? to where?
 * I opened this file to type something here but I forget what it is!
 * cron apt-get updates / upgrades
 * Get some actual users
-* Write "why tilde.city" page
-* Nuke twilde/tilde.city with fire
-* Move skel to tildecity/skel
-* Add skel-permission-fixer shell script
-* Automate skel deployment
+* Skel
+ * Move skel to tildecity/skel
+ * Add skel-permission-fixer shell script
+ * Automate skel deployment
+* Web
+ * Write "why tilde.city" page
+ * Better web site layout (but needs to be 90s-ish?)
+ * Recently changed pages
+ * User list
