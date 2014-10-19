@@ -38,10 +38,12 @@
 ~~~    ~~~~~~~~~~   ~~~~~~    ~~~~~~~~~~   ~~~~~~    ~~~~~~~~~~
 ```
 
-Welcome to tilde.city's code/info repository!  We're Yet Another Clone
-of the tilde.club idea, with reliability and scalabity as our primary
-goals.  That's right, it's a free service that will actually try very
-hard to be up and running as much as humanly (and digitally) possible!
+Welcome to [tilde.city](http://tilde.city/)'s code/info/everything repository!
+We're Yet Another Clone of the tilde.club idea, with reliability, scalabity,
+and transparency as our primary goals. That's right, it's a free service that
+will actually try very hard to be up and running as much as humanly (and
+digitally) possible! That said, there's no guarantees.  But we'll try!  And we 
+welcome help!  Check out the site, check out this repo, and join us!
 
 Like tilde.city?  Help us out by donating Bitcoin to:
 [1ti1deiBDTTPpKYq6rRrEGb3Y8UY45AGf](https://blockchain.info/address/1ti1deiBDTTPpKYq6rRrEGb3Y8UY45AGf)
