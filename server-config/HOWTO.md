@@ -20,6 +20,7 @@ Here's the basic steps to get going.
 * replace `/etc/motd`
 * replace `/etc/apt/sources.list`
 * `apt-get update && apt-get dist-upgrade` (this will take a while)
+* `apt-get remove mpt-status`
 * `apt-get autoremove`
 * reboot
 * `apt-get install joe sudo nginx alpine emacs mosh golang rsnapshot git ufw finger`
