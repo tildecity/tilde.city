@@ -3,9 +3,10 @@ server {
 	resolver 8.8.8.8;
 
 	index index.html index.htm;
-
-	server_name tilde.city 001.tilde.city;
-
+	
+	server_name tilde.city;
+	server_name_in_redirect on;
+	
 	location / {
 		proxy_pass http://admin.tilde.city/;
 	}
