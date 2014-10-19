@@ -23,3 +23,7 @@ Bitcoin blockchain!
 * cron apt-get updates / upgrades
 * Get some actual users
 * Write "why tilde.city" page
+* Nuke twilde/tilde.city with fire
+* Move skel to tildecity/skel
+* Add skel-permission-fixer shell script
+* Automate skel deployment
