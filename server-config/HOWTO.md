@@ -26,8 +26,8 @@ Here's the basic steps to get going.
 * Install software
  * `apt-get install csh zsh`
  * `apt-get install emacs joe`
- * `apt-get install mosh nginx rsnapshot sudo ufw znc`
- * `apt-get install alpine finger git talk talkd`
+ * `apt-get install mosh nginx rsnapshot sudo tmux ufw znc`
+ * `apt-get install alpine elinks finger htop git irssi lynx talk talkd`
  * `apt-get install golang`
 * edit `/etc/joe/joerc` and enable -nobackups (personal preference)
 * set up firewall
