@@ -23,6 +23,9 @@ Here's the basic steps to get going.
 * `apt-get remove mpt-status`
 * `apt-get autoremove`
 * reboot
+* Set timezone to UTC
+ * `dpkg-reconfigure tzdata`
+ * Select "None of the above" then "UTC"
 * Install software
  * `apt-get install csh zsh`
  * `apt-get install emacs joe`
