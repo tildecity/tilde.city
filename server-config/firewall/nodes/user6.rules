@@ -50,6 +50,24 @@
 ### tuple ### allow udp 60000:61000 ::/0 any ::/0 mosh - in
 -A ufw6-user-input -p udp -m multiport --dports 60000:61000 -j ACCEPT -m comment --comment 'dapp_mosh'
 
+### tuple ### allow tcp 25 ::/0 any ::/0 in
+-A ufw6-user-input -p tcp --dport 25 -j ACCEPT
+
+### tuple ### reject tcp 587 ::/0 any ::/0 out
+-A ufw6-user-output -p tcp --dport 587 -j REJECT --reject-with tcp-reset
+
+### tuple ### allow tcp 110 ::/0 any ::/0 POP3 - out
+-A ufw6-user-output -p tcp --dport 110 -j ACCEPT -m comment --comment 'dapp_POP3'
+
+### tuple ### allow tcp 995 ::/0 any ::/0 POP3S - out
+-A ufw6-user-output -p tcp --dport 995 -j ACCEPT -m comment --comment 'dapp_POP3S'
+
+### tuple ### allow tcp 143 ::/0 any ::/0 IMAP - out
+-A ufw6-user-output -p tcp --dport 143 -j ACCEPT -m comment --comment 'dapp_IMAP'
+
+### tuple ### allow tcp 993 ::/0 any ::/0 IMAPS - out
+-A ufw6-user-output -p tcp --dport 993 -j ACCEPT -m comment --comment 'dapp_IMAPS'
+
 ### END RULES ###
 
 ### LOGGING ###
