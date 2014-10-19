@@ -23,7 +23,12 @@ Here's the basic steps to get going.
 * `apt-get remove mpt-status`
 * `apt-get autoremove`
 * reboot
-* `apt-get install joe sudo nginx alpine emacs mosh golang rsnapshot git ufw finger znc`
+* Install software
+ * `apt-get install csh zsh`
+ * `apt-get install emacs joe`
+ * `apt-get install mosh nginx rsnapshot sudo ufw znc`
+ * `apt-get install alpine finger git`
+ * `apt-get install golang`
 * edit `/etc/joe/joerc` and enable -nobackups (personal preference)
 * set up firewall
 * set up `/etc/skel` (see provided files)
