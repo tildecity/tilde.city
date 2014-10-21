@@ -68,6 +68,12 @@
 ### tuple ### allow tcp 993 ::/0 any ::/0 IMAPS - out
 -A ufw6-user-output -p tcp --dport 993 -j ACCEPT -m comment --comment 'dapp_IMAPS'
 
+### tuple ### allow tcp 43 ::/0 any ::/0 out
+-A ufw6-user-output -p tcp --dport 43 -j ACCEPT
+
+### tuple ### allow tcp 113 ::/0 any ::/0 in
+-A ufw6-user-input -p tcp --dport 113 -j ACCEPT
+
 ### END RULES ###
 
 ### LOGGING ###
