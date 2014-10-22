@@ -45,5 +45,6 @@ Here's the basic steps to get going.
 
 Admin Server
 ------------
-* install ircd-hybrid
+* `apt-get install ircd-hybrid`
+* `apt-get install puppetmaster`
 * configure exim to accept mail for tilde.city from the Internet
